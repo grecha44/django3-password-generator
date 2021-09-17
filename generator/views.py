@@ -27,3 +27,6 @@ def password(request):
 
 def description(request):
     return render(request,'generator/description.html')
+
+def base(request):
+    return render(request,'generator/base.html')
